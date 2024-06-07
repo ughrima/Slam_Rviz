@@ -1,0 +1,11 @@
+digraph G {
+"camera_link" -> "camera_depth_frame"[label=" Broadcaster: /rosbag_play\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label=" Broadcaster: /rosbag_play\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_link" -> "camera_color_frame"[label=" Broadcaster: /rosbag_play\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_color_frame" -> "camera_color_optical_frame"[label=" Broadcaster: /rosbag_play\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"map" -> "base_link"[label=" Broadcaster: /ssl_slam_odom_estimation_node\nAverage rate: 6.095\nBuffer length: 4.922\nMost recent transform: 1596800464.873\nOldest transform: 1596800459.95\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1596800464.9234629"[ shape=plaintext ] ;
+}->"map";
+}
