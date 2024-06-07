@@ -37,11 +37,9 @@ catkin_ws/
 
 To run the SLAM system, you need to install the following dependencies:
 
-- **ROS (Robot Operating System)**: [Installation Guide](http://wiki.ros.org/ROS/Installation)
-- `ssl_slam` package and its dependencies
-- Any other dependencies required by `ssl_slam`
-
-For reference, you can check the dependencies listed in the [original ssl_slam repository](https://github.com/wh200720041/ssl_slam).
+- **ROS (Robot Operating System)**: [Installation Guide](http://wiki.ros.org/ROS/Installation) 
+Ubuntu 64-bit 20.04. ROS Noetic.
+- For reference, you can also check the dependencies listed in the [original ssl_slam repository](https://github.com/wh200720041/ssl_slam).
 
 ## Setup Instructions
 
